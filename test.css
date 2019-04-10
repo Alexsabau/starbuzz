@@ -1,0 +1,42 @@
+/* CSS Document */
+
+
+#l {
+	font-weight: lighter;
+}
+
+#n {
+	font-weight: normal;
+}
+
+#b {
+	font-weight: bold;
+}
+
+#bb {
+	font-weight: bolder;
+}
+
+#l {
+	text-decoration: overline;
+}
+
+#l {
+	text-decoration: overline
+}
+
+#stamp {
+	border-width: 10px;
+	border-color: rgb(178, 215, 215);
+	border-style: dashed;
+	background-color: lightgray;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+#content {
+	background: rgb(178, 215, 215);
+	height: 100%; 
+}
