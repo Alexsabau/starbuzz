@@ -1,0 +1,44 @@
+/* CSS Document */
+body {
+	background: tan;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+}
+h1 {
+	
+}
+h2 {
+	
+}
+p {
+
+}
+.price {
+	color: seagreen;
+}
+
+#contact {
+	text-align: center;
+	padding: 40px;
+	font-size: 150%
+}
+
+a:link {
+	
+	color: saddlebrown;
+	text-decoration: none;
+}
+a:visited {
+	color: rgba(65,25,25,1.00);
+	text-decoration: none;
+}
+a:hover {
+	color: brown;
+	text-decoration: overline;
+}

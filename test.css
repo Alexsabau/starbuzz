@@ -33,10 +33,11 @@
 	width: 100px;
 	height: 100px;
 	margin: auto;
-	vertical-align: middle;
-	text-align: center;
 }
 #content {
 	background: rgb(178, 215, 215);
 	height: 100%; 
+	line-height: 100px; 
+	vertical-align: middle;
+	text-align: center;
 }
