@@ -1,0 +1,33 @@
+/* CSS Document */
+
+@keyframes color {
+	from {
+		background-color: mediumvioletred;
+		left: 10%;
+	}
+	to {
+		background-color: yellow;
+		left: 90%;
+	}
+}
+@keyframes sus_jos {
+	0% {top: 10%; }
+	25% { top: 25% }
+	50% {top: 10% }
+	75% { top: 25% }
+	100% { top: 10% }
+}
+#patrat {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: mediumvioletred;
+	animation-name: color, sus_jos;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+}
+
