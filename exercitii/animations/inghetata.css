@@ -1,0 +1,48 @@
+/* CSS Document */
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: forestgreen;
+	flex-direction: column;
+}
+
+.icecream {
+	width: 200px;
+	height: 400px;
+	background-color: darkmagenta;
+	border-radius: 50px 50px 0px 0px;
+	overflow: hidden; 
+}
+
+.stick {
+	height: 100px;
+	width: 30px;
+	background-color: beige;
+	border-radius: 0px 0px 8px 8px; 
+		
+}
+
+.flavor {
+	position: relative;
+	top: -100px; 
+	left: -130px;
+	background-image: linear-gradient(0deg, chocolate 0%, chocolate 25%, limegreen 25%, limegreen 50%, yellow 50%, yellow 75%, orange 75%, orange 100%);
+	width: 600px;
+	height: 500px;
+	transform: rotate(-45deg);
+	animation-name: move;
+	animation-duration: 30s;
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
+
+@keyframes move {
+	to {
+		background-position: 0px 1000px;
+	}
+}

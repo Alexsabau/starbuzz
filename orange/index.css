@@ -54,3 +54,36 @@ header {
 .desc h3 {
 	color: darkblue;
 }
+.team_name {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	border-top-right-radius: 98%;
+	width: 270px;
+	position: relative;
+	bottom: 24px; 
+	transition: 0.3s ease-in-out;
+}
+.text-muted {
+	display: block;
+	position: relative;
+	padding-left: 3px; 
+	bottom: 24px;
+}
+.team_item:hover .team_name {
+	height: 85%;
+	border-top-right-radius: 0%;
+	background-color: #EB723780;
+	position: absolute;
+	vertical-align: middle; 
+	top: 0; 
+	line-height: 350px;
+}
+.contact input, textarea {
+	margin: 10px 0px 10px 0px; 
+}
+.touch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
